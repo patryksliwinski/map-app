@@ -1,0 +1,9 @@
+.map-collapse.collapse.show .map-container {
+  max-height: 50vh;
+}
+
+.map-container {
+  max-height: 0px;
+  transition: max-height 0.35s ease;
+  overflow: hidden;
+}
